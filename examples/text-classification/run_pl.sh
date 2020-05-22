@@ -1,5 +1,9 @@
 # Install newest ptl.
-pip install -U git+http://github.com/PyTorchLightning/pytorch-lightning/
+# pip install -U git+http://github.com/PyTorchLightning/pytorch-lightning/
+
+set -x
+set -e
+
 # Install example requirements
 pip install -r ../requirements.txt
 
